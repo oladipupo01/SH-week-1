@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="page">
+        <h1>Registration Form</h1>
+
+        <form name="sign-up-form" action="" method="post" autocomplete="off">
+
+            <p class="success register-success"></p>
+
+            <label>Full Name <span>Please type correct name</span> </label>
+            <input type="text" name="fullname">
+            <p class="error fullname-error"></p>
+            
+            <label>Email <span>Please enter an active email</span> </label>
+            <input type="text" name="email">
+            <p class="error email-error"></p>
+
+            <label>Phone Number <span>Please use correct number</span> </label>
+            <input type="text" name="phonenumber">
+            <p class="error phonenumber-error"></p>
+
+            <label>Password <span>Please use a strong password</span> </label>
+            <input type="text" name="password">
+            <p class="error password-error"></p>
+
+            <div class="gender">
+
+                <p>
+
+                    <input checked type="radio" name="gender" value="male"> <span>Male</span>
+
+                </p>
+
+                <p>
+
+                    <input type="radio" name="gender" value="female"> <span>Female</span>
+
+                </p>
+            </div>
+
+            <input type="submit" name="register-submition" value="Submit">
+
+            <p class="error register-error"></p>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
